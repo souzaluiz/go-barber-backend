@@ -6,7 +6,8 @@
     "start": "node ./dist/server.js",
     "build": "rimraf dist && tsc",
     "test": "jest --runInBand",
-    "start:dev": "tsnd --ignore-watch node_modules --transpile-only src/server.ts"
+    "start:dev": "tsnd --ignore-watch node_modules --transpile-only src/server.ts",
+    "typeorm": "tsnd ./node_modules/typeorm/cli.js"
   },
   "dependencies": {
     "date-fns": "^2.19.0",
